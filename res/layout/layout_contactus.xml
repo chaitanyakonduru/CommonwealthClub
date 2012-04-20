@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dip"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="San Francisco Office"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+    <TextView 
+        android:paddingTop="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:textColor="#0505F5"
+        android:textSize="14sp"
+        
+        />
+    <TextView 
+        android:layout_marginTop="20dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telephone : (415) 597-6705"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="club@commonwealthclub.org"
+        android:textColor="#0505F5"
+        android:textSize="16sp"
+        />
+    
+    <LinearLayout 
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:layout_marginTop="10dip">
+    
+    <LinearLayout 
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <Button
+            android:id="@+id/btn_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="website"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+         
+        <Button
+            android:id="@+id/btn_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="email us"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout 
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <Button
+            android:id="@+id/btn_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="facebook"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+         
+        <Button
+            android:id="@+id/btn_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="twitter"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+   <TextView 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Oct 5-2011 - 11:30"
+       android:paddingLeft="8dip"
+       android:textColor="#0505F5"
+       android:textStyle="bold"
+       android:textSize="16sp"
+       android:id="@+id/eventtime"
+       />
+   <TextView 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="San Francisco Architecture Walking Tour #8"
+       android:textColor="@android:color/black"
+       android:textSize="16sp"
+       android:paddingTop="5dip"
+       android:paddingLeft="8dip"
+       android:id="@+id/eventtitle"
+       
+       />
+
+</LinearLayout>

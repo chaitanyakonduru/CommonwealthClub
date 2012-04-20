@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CommonWealthClubActivity!</string>
+    <string name="app_name">Commonwealth Club</string>
+	<string name="address">595 Market Street, 2nd Floor \n San Francisco, CA 94105</string>
+</resources>
